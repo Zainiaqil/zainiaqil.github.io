@@ -949,3 +949,27 @@ body::before {
     animation: none !important;
   }
 }
+
+
+/* # PROJECT ASLI - TANGKAPAN LAYAR & LINK WEBSITE */
+.project-visual.project-shot {
+  padding: 0;
+  display: block;
+  text-decoration: none;
+}
+.project-shot img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  display: block;
+  transition: transform .4s;
+}
+.project-card:hover .project-shot img { transform: scale(1.04); }
+.live-link {
+  font: 600 .78rem var(--mono);
+  color: var(--accent);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.live-link:hover { text-decoration: underline; }
